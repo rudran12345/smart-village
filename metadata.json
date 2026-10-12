@@ -1,0 +1,6 @@
+{
+  "name": "SmartVillage - Cloud AI Digital Twin",
+  "description": "Cloud-Based AI Digital Twin for Smart Village Resource Monitoring: water, agriculture, electricity, weather, infrastructure, what-if simulations, and risk detection.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
