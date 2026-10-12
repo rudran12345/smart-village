@@ -345,6 +345,11 @@ Expected output:
 4. **Netlify 404 on Page Refresh**:
    - Handled via `netlify.toml` which redirects `/*` to `/index.html` with HTTP 200.
 
+5. **Netlify NPM ERESOLVE / Peer Dependency Conflict (`esbuild` vs `vite`)**:
+   - `vite@^8.3.0` requires `esbuild@^0.27.0 || ^0.28.0`.
+   - `package.json` specifies `"esbuild": "^0.28.0"`.
+   - `netlify.toml` includes `NPM_FLAGS = "--legacy-peer-deps"` to ensure smooth headless installations on Netlify build containers.
+
 ---
 
 ## License
