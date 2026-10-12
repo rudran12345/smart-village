@@ -9,7 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 from dotenv import load_dotenv
 
-from  database.init_db import init_database
+from .database.init_db import init_database
 from .routes import (
     dashboard,
     resources,
